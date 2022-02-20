@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Search Images</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+    crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="container">
+    <form class="search-form" id="search-form">
+      <input class="search-img" type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
+      <button class="search-image-btn" type="submit">Search</button>
+    </form>
+    <div class="gallery">
+      <!-- Карточки изображений -->
+    </div>
+    <button type="button" class="load-more is-hidden" disabled>Load more</button>
+  </div>
+
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
